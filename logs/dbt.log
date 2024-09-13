@@ -1,0 +1,28 @@
+[0m00:21:21.015915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AF338A2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AF6220DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AF290AFF0>]}
+
+
+============================== 00:21:21.029449 | 61a2d350-0de5-4f9b-80d5-61a97e3a2c93 ==============================
+[0m00:21:21.029449 [info ] [MainThread]: Running with dbt=1.8.6
+[0m00:21:21.029449 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Felipe Felix\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init vendas_datawarehouse_dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:21:21.047094 [debug] [MainThread]: Starter project path: C:\Users\Felipe Felix\PycharmProjects\datawarehouse\.venv\Lib\site-packages\dbt\include\starter_project
+[0m00:21:21.057262 [info ] [MainThread]: 
+Your new dbt project "vendas_datawarehouse_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:21:21.057262 [info ] [MainThread]: Setting up your profile.
+[0m00:22:52.815211 [info ] [MainThread]: Profile vendas_datawarehouse_dbt written to C:\Users\Felipe Felix\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:22:52.815211 [debug] [MainThread]: Command `dbt init` succeeded at 00:22:52.815211 after 91.92 seconds
+[0m00:22:52.815211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AF338A2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AF5DD3F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AF52E29F0>]}
+[0m00:22:52.815211 [debug] [MainThread]: Flushing usage events
